@@ -22,7 +22,7 @@ Luma is a **guided journaling app** designed to help users find clarity through 
 
 - **Backend**: Flask, SQLAlchemy, Flask-JWT-Extended
 - **Frontend**: React, React Router, Context API
-- **Database**: PostgreSQL
+- **Database**: SQLite3
 - **Styling**: CSS, Styled Components
 - **Authentication**: JWT tokens for secure login and user sessions
 - **AI Integration**: Using AI prompts for journaling suggestions
