@@ -33,7 +33,7 @@ const JournalForm = ({ onJournalCreated }) => {
       toast.success('Journal created successfully!');
       resetForm();
     } catch (err) {
-      toast.failed('Error creating journal :(');
+      toast.error('Error creating journal :(');
       
       // Check if it's a unique constraint violation error
       if (err.message && err.message.includes('UNIQUE constraint failed: journals.title')) {
